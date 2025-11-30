@@ -3,21 +3,42 @@
 <head>
   <meta charset="utf-8">
   <title>MSML602 – Final Project</title>
+
   <style>
-    html, body {
+    /* 전체 배경 */
+    body {
       margin: 0;
       padding: 0;
-      height: 100%;
+      background: #f5f5f5;
+      font-family: "Helvetica Neue", Arial, sans-serif;
     }
+
+    /* 페이지 가운데 정렬 + 여백 */
+    .page-wrapper {
+      max-width: 1200px;          /* 적당히 넓은 웹 표준 폭 */
+      margin: 40px auto;          /* 위·아래 40px, 좌·우 auto */
+      padding: 0;
+      background: white;
+      box-shadow: 0 0 12px rgba(0,0,0,0.15);
+      border-radius: 4px;
+      overflow: hidden;           /* iframe 둥근 모서리 동일 적용 */
+    }
+
     iframe {
       width: 100%;
-      height: 100%;
+      height: 90vh;               /* 화면 높이의 90% */
       border: none;
+      display: block;
     }
   </style>
+
 </head>
 <body>
-  <!-- minimal 버전 HTML 삽입 -->
-  <iframe src="602_Final_minimal.html"></iframe>
+
+  <div class="page-wrapper">
+    <!-- minimal 버전 HTML 삽입 -->
+    <iframe src="602_Final_styled.html"></iframe>
+  </div>
+
 </body>
 </html>

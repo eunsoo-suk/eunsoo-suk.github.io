@@ -108,7 +108,7 @@ This project presents a systematic analysis of occupational fatality patterns ac
   <img src="https://github.com/user-attachments/assets/b3979f1c-4f00-4c89-b76c-92635ef24706" width="49%" />
 </p>
 
-<img width="964" height="477" alt="image" src="https://github.com/user-attachments/assets/2d05319b-f375-4738-8cad-a11f9895951a" />
+<img width="937" height="471" alt="image" src="https://github.com/user-attachments/assets/e1260143-ab8b-4a71-b160-64cd8a7463d3" />
 
 ## 7. Key Contributions
 
